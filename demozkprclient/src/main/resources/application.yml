@@ -1,0 +1,11 @@
+server:
+  port: 8082
+spring:
+  cloud:
+    application:
+      name: SpringClient
+    zookeeper:
+      connect-string: zookeeper:2181
+
+
+
